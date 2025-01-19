@@ -53,3 +53,13 @@ if (contactForm) {
         }
     });
 }
+const div = document.createElement('div');
+div.classList.add('wrapper');
+document.body.appendChild(div);
+const ul =`<ul>
+<li> One </li>
+<li> Two </li>
+<li> Three</li> 
+</ul>`;
+div.innerHTML =ul ;
+
