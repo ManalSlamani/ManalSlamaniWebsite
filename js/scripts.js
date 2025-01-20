@@ -53,6 +53,7 @@ if (contactForm) {
         }
     });
 }
+/** this section is to practise array cardio with js course */
 const div = document.createElement('div');
 div.classList.add('wrapper');
 document.body.appendChild(div);
@@ -64,3 +65,11 @@ const ul =`<ul>
 </ul>`;
 div.innerHTML =ul ;
 
+
+/* addin an image */
+const img = document.createElement('img');
+img.src='https://picsum.photos/200';
+img.width= 250 ;
+img.classList.add('cute');
+img.alt='Cute Puppy';
+div.appendChild(img);
